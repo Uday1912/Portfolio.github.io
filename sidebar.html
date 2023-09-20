@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <!-- SideBar-->
+
+    <div class="container-fluid">
+        <div class="row min-vh-100 flex-column flex-md-row">
+            <aside class="col-12 col-md-3 col-xl-2 p-0 bg-white ">
+                <nav class="navbar navbar-expand-md navbar-white bd-dark flex-md-column flex-row align-items-center py-2 text-center sticky-top "
+                    id="sidebar">
+                    <div class="text-center p-3">
+                        <img src="./src/img/profile.jpeg" alt="profile picture"
+                            class="img-fluid rounded-circle my-4 p-1 d-none d-md-block shadow text-nowrap" />
+                        <a href="#" class="navbar-brand mx-0 font-weight-bold  text-nowrap">Uday</a>
+                    </div>
+                    <button type="button" class="navbar-toggler border-0 order-1" data-bs-toggle="collapse"
+                        data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse order-last" id="nav">
+                        <ul class="navbar-nav flex-column w-100 justify-content-center">
+                            <li class="nav-item">
+                                <a href="#profile" class="nav-link active">Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#skill" class="nav-link"> Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#project" class="nav-link"> Projects </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link"><i class="fa fa-linkedin-square"
+                                        style="font-size:48px;color:blue"></i> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </aside>
+            <main class="col px-0 flex-grow-1">
+                <div class="container py-3">
+                    <article>
+
+                        <h3 id="about" style="text-align: center;"> "Believe in the power of Knowledge, strategy and
+                            Determination."
+                        </h3>
+
+                        <section>
+                            <h1 style="text-align: center;">Say Hi from
+                                <span style="background-color: antiquewhite; border-radius: 10px;">
+                                    Uday
+                                </span>,
+                                <br>
+                                An Aspiring
+                                <br>
+                                <span id="dynamicContent" class="overflow-hidden"
+                                    style="background-color: antiquewhite;">
+                                    FullStack Developer.
+                                </span>
+                            </h1>
+
+
+
+
+                            <!-- mouse hover-->
+                            <section id="about">
+                                <h3 style="text-align: center;">Click / Hover to Explore</h3>
+                                <div class="menu" style="text-align: center;">
+                                    <ul>
+                                        <li data-value="Kungfu Panda">------ -----</li>
+                                        <li data-value="Techno-Phile">------------</li>
+                                        <li data-value="Problem Solver">------ -------</li>
+                                        <li data-value="Creative ">--------</li>
+                                        <li data-value="Harvey Specter">------ -------</li>
+
+
+                                    </ul>
+                                </div>
+                            </section>
+
+
+
+
+
+                            <div id="profile">  
+                            <section id="about">
+                                <h2>About Me</h2>
+                                <p>
+                                    I am an final year undergraduate student currently studying in
+                                    D.A.V Institute of Technology, Jalandhar, Punjab. I am
+                                    currently pursuing <b> B.Tech Electronics and Communication Engineering </b>.
+                                    I am a
+                                    <b> inquisitive </b> learner who believes in hard-work. I am
+                                    amalgamation of both a geeky boy and a practical implementer. I aspire
+                                    to work further in the field of <b>Web Development</b>.
+                                </p>
+                            </section>
+                        </div>
+
+                            <!-- Skills-->
+
+                            <div id="skill">
+                                <section id="about">
+                                    <div class="skills"> <!-- create a div -->
+                                        <h1 style="text-align: center;">My Skills</h1> <!-- heading -->
+                                        <li>
+                                            <h3>Python</h3><span class="bar"><span class="python"></span></span>
+                                            <!-- skill bar 1 -->
+                                        </li>
+                                        <li>
+                                            <h3>Angular</h3><span class="bar"><span class="html"></span></span>
+                                            <!-- skill bar 1 -->
+                                        </li>
+                                        <li>
+                                            <h3>Mongodb</h3><span class="bar"><span class="html"></span></span>
+                                            <!-- skill bar 1 -->
+                                        </li>
+                                        <li>
+                                            <h3>HTML</h3><span class="bar"><span class="html"></span></span>
+                                            <!-- skill bar 1 -->
+                                        </li>
+
+                                        <li>
+                                            <h3>CSS</h3><span class="bar"><span
+                                                    class="css"></span></span><!-- skill bar 2 -->
+                                        </li>
+
+                                        <li>
+                                            <h3>JAVASCRIPT</h3><span class="bar"><span
+                                                    class="javascript"></span></span><!-- skill bar 3 -->
+                                        </li>
+
+                                        <li>
+                                            <h3>Node.js </h3><span class="bar"><span
+                                                    class="node"></span></span><!-- skill bar 4 -->
+                                        </li>
+                                    </div>
+                                </section>
+                            </div>
+
+                            <!-- Project-->
+
+                            <div id="project">
+                                <section id="about">
+                                    <h1 style="text-align: center;">My Projects</h1>
+                                    <div class="container">
+                                        <div class="row">
+
+
+                                            <div class="card"
+                                                style="width: 18rem; margin-right: 150px; margin-bottom: 20px; margin-top: 20px; background-color: aliceblue;">
+                                                <img src="./src/img/gy91d33f.png" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Smart Parking System</h5>
+                                                    <p class="card-text" style="text-align: center;">AI Based Smart
+                                                        Parking
+                                                        System using IOT.</p>
+                                                    <a href="#" class="btn btn-primary">Know more</a>
+                                                </div>
+                                            </div>
+                                            <div class="card"
+                                                style="width: 18rem; margin-right: 105px; margin-bottom: 20px; margin-top: 20px; background-color: aliceblue;">
+                                                <img src="./src/img/u289cqae.png" class="card-img-top">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">BLOG Website</h5>
+                                                    <p class="card-text" style="text-align: center;">Built Using
+                                                        Angular(Frontend) and Mongodb(backend).</p>
+                                                    <a href="#" class="btn btn-primary">Know more</a>
+                                                </div>
+                                            </div>
+                                            <div class="card"
+                                                style="width: 18rem; margin-bottom: 20px; margin-top: 20px; background-color: aliceblue;">
+                                                <img src="./src/img/1iif4gz6.png" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Weather Application</h5>
+                                                    <p class="card-text" style="text-align: center;">Weather Application
+                                                        using PYTHON with API integration.</p>
+                                                    <a href="#" class="btn btn-primary">know more</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+
+
+                            <div id="Certification">
+
+                                
+                                <section id="about">
+                                    <h1 style="text-align: center;">Certification</h1>
+                                    <h3>* FullStack Development</h3>
+                                    <h3>* Python </h3>
+                                </section>
+                            </div>
+
+                            <section id="about">
+                                <h1 style="text-align: center;">Let's work together</h1>
+
+
+
+
+                            </section>
+
+
+
+
+                        </section>
+
+
+                    </article>
+
+
+
+                </div>
+            </main>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
