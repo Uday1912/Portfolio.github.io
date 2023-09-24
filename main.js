@@ -1,7 +1,7 @@
 /** changing text **/
 firstText = "FullStack Developer :-)";
 secondText = "Programmer :-)";
-thirdText = "Electronics Engineer"
+thirdText = "Electronics Engineer :-)"
 intervalTime = 600;
 window.load = displayText();
 function displayText() {
